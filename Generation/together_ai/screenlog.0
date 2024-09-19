@@ -1,0 +1,465 @@
+/Users/qingyuanzii/.zshrc:source:24: no such file or directory: /Users/qingyuanzii/.zshrc.pre-oh-my-zsh
+[1m[3m%[23m[1m[0m                                                                                [0m[23m[24m[J(base) qingyuanzii@bogon together_ai % [K[?2004h[0m[23m[24m[J(base) qingyuanzii@bogon together_ai % cconda activate llm[?2004l
+[1m[3m%[23m[1m[0m                                                                                                                                                                            [0m[23m[24m[J(llm) qingyuanzii@bogon together_ai % [K[?2004hccd c  ppython --  t
+[Jtest.sh*                                     test_block_generate_chunk_other_language.py  test_token_lifespan.py
+test_b.sh*                                   test_code_editing_new_to_old.py              test_token_source_code_rag.py
+test_block.sh                                test_code_editing_old_to_new.py              tmp/
+test_block_generate_chunk.py                 test_line.sh                                 tmp_test.py
+test_block_generate_chunk_code_editing.py    test_line_generate_chunk.py                  token_rag_stackoverflow.py
+test_block_generate_chunk_org.py*            test_token.py                                [6A[0m[23m[24m[38Cpython t[Koken_rag_stackoverflow.py[1m [0m[0m --loc local --withr )ra   ) _rg ag True --sampleso  _source library)s  ) _source c )c  _code[?2004l
+[JTraceback (most recent call last):
+  File "/Users/qingyuanzii/Desktop/Versi-Code-Gen/VerisiCode-RAG/Generation/together_ai/token_rag_stackoverflow.py", line 10, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[1m[3m%[23m[1m[0m                                                                                                                                                                            [0m[23m[24m[J(llm) qingyuanzii@bogon together_ai % [K[?2004hppip install sentence_transformers -i tence_transformers                  https://pypi.tuna.tsinghua.edu.cn/simple[?2004l
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting sentence_transformers
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/58/4b/922436953394e1bfda05e4bf1fe0e80f609770f256c59a9df7a9254f3e0d/sentence_transformers-3.0.1-py3-none-any.whl (227 kB)
+Collecting transformers<5.0.0,>=4.34.0 (from sentence_transformers)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/47/ab/c42556ba7c5aed687256466d472abb9a1b9cbff5730aa42a884d892e061a/transformers-4.44.1-py3-none-any.whl (9.5 MB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/9.5 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [91m━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.8/9.5 MB[0m [31m8.8 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.1/9.5 MB[0m [31m7.7 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━[0m [32m5.8/9.5 MB[0m [31m9.2 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━[0m [32m7.3/9.5 MB[0m [31m9.3 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━[0m [32m8.9/9.5 MB[0m [31m8.8 MB/s[0m eta [36m0:00:01[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m9.5/9.5 MB[0m [31m8.4 MB/s[0m eta [36m0:00:00[0m
+[?25hRequirement already satisfied: tqdm in /Users/qingyuanzii/opt/anaconda3/envs/llm/lib/python3.10/site-packages (from sentence_transformers) (4.66.4)
+Collecting torch>=1.11.0 (from sentence_transformers)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/3b/55/7192974ab13e5e5577f45d14ce70d42f5a9a686b4f57bbe8c9ab45c4a61a/torch-2.2.2-cp310-none-macosx_10_9_x86_64.whl (150.8 MB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/150.8 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.8/150.8 MB[0m [31m8.7 MB/s[0m eta [36m0:00:18[0m[2K     [91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.4/150.8 MB[0m [31m8.1 MB/s[0m eta [36m0:00:19[0m[2K     [91m━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m5.8/150.8 MB[0m [31m9.5 MB/s[0m eta [36m0:00:16[0m[2K     [91m━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m7.6/150.8 MB[0m [31m9.6 MB/s[0m eta [36m0:00:15[0m[2K     [91m━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m9.7/150.8 MB[0m [31m9.4 MB/s[0m eta [36m0:00:15[0m[2K     [91m━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.3/150.8 MB[0m [31m9.2 MB/s[0m eta [36m0:00:16[0m[2K     [91m━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m12.6/150.8 MB[0m [31m8.7 MB/s[0m eta [36m0:00:16[0m[2K     [91m━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m13.9/150.8 MB[0m [31m8.5 MB/s[0m eta [36m0:00:17[0m[2K     [91m━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m14.9/150.8 MB[0m [31m8.0 MB/s[0m eta [36m0:00:17[0m[2K     [91m━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m16.0/150.8 MB[0m [31m8.0 MB/s[0m eta [36m0:00:17[0m[2K     [91m━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m16.0/150.8 MB[0m [31m8.0 MB/s[0m eta [36m0:00:17[0m[2K     [91m━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m16.0/150.8 MB[0m [31m8.0 MB/s[0m eta [36m0:00:17[0m[2K     [91m━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m16.8/150.8 MB[0m [31m6.4 MB/s[0m eta [36m0:00:21[0m[2K     [91m━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m19.4/150.8 MB[0m [31m6.7 MB/s[0m eta [36m0:00:20[0m[2K     [91m━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m21.2/150.8 MB[0m [31m6.8 MB/s[0m eta [36m0:00:19[0m[2K     [91m━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m23.3/150.8 MB[0m [31m7.1 MB/s[0m eta [36m0:00:19[0m[2K     [91m━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m24.4/150.8 MB[0m [31m7.1 MB/s[0m eta [36m0:00:18[0m[2K     [91m━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m27.3/150.8 MB[0m [31m7.3 MB/s[0m eta [36m0:00:17[0m[2K     [91m━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m29.1/150.8 MB[0m [31m7.4 MB/s[0m eta [36m0:00:17[0m[2K     [91m━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m30.9/150.8 MB[0m [31m7.5 MB/s[0m eta [36m0:00:16[0m[2K     [91m━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m33.0/150.8 MB[0m [31m7.6 MB/s[0m eta [36m0:00:16[0m[2K     [91m━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m34.3/150.8 MB[0m [31m7.7 MB/s[0m eta [36m0:00:16[0m[2K     [91m━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m36.7/150.8 MB[0m [31m7.8 MB/s[0m eta [36m0:00:15[0m[2K     [91m━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m38.8/150.8 MB[0m [31m7.9 MB/s[0m eta [36m0:00:15[0m[2K     [91m━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m40.4/150.8 MB[0m [31m7.8 MB/s[0m eta [36m0:00:15[0m[2K     [91m━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m42.7/150.8 MB[0m [31m8.0 MB/s[0m eta [36m0:00:14[0m[2K     [91m━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m44.3/150.8 MB[0m [31m8.0 MB/s[0m eta [36m0:00:14[0m[2K     [91m━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m46.7/150.8 MB[0m [31m8.1 MB/s[0m eta [36m0:00:13[0m[2K     [91m━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m48.5/150.8 MB[0m [31m8.1 MB/s[0m eta [36m0:00:13[0m[2K     [91m━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m49.5/150.8 MB[0m [31m8.0 MB/s[0m eta [36m0:00:13[0m[2K     [91m━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m52.2/150.8 MB[0m [31m8.2 MB/s[0m eta [36m0:00:13[0m[2K     [91m━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m53.7/150.8 MB[0m [31m8.2 MB/s[0m eta [36m0:00:12[0m[2K     [91m━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m55.8/150.8 MB[0m [31m8.2 MB/s[0m eta [36m0:00:12[0m[2K     [91m━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m58.2/150.8 MB[0m [31m8.3 MB/s[0m eta [36m0:00:12[0m[2K     [91m━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m59.0/150.8 MB[0m [31m8.3 MB/s[0m eta [36m0:00:12[0m[2K     [91m━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m61.9/150.8 MB[0m [31m8.3 MB/s[0m eta [36m0:00:11[0m[2K     [91m━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m64.0/150.8 MB[0m [31m8.4 MB/s[0m eta [36m0:00:11[0m[2K     [91m━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━[0m [32m65.8/150.8 MB[0m [31m8.4 MB/s[0m eta [36m0:00:11[0m[2K     [91m━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━[0m [32m67.9/150.8 MB[0m [31m8.4 MB/s[0m eta [36m0:00:10[0m[2K     [91m━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━[0m [32m69.2/150.8 MB[0m [31m8.4 MB/s[0m eta [36m0:00:10[0m[2K     [91m━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━[0m [32m69.7/150.8 MB[0m [31m8.4 MB/s[0m eta [36m0:00:10[0m[2K     [91m━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━[0m [32m71.0/150.8 MB[0m [31m8.2 MB/s[0m eta [36m0:00:10[0m[2K     [91m━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━[0m [32m72.6/150.8 MB[0m [31m8.2 MB/s[0m eta [36m0:00:10[0m[2K     [91m━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━[0m [32m74.4/150.8 MB[0m [31m8.2 MB/s[0m eta [36m0:00:10[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━[0m [32m75.8/150.8 MB[0m [31m8.2 MB/s[0m eta [36m0:00:10[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━[0m [32m78.1/150.8 MB[0m [31m8.3 MB/s[0m eta [36m0:00:09[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━[0m [32m80.5/150.8 MB[0m [31m8.3 MB/s[0m eta [36m0:00:09[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━[0m [32m82.3/150.8 MB[0m [31m8.3 MB/s[0m eta [36m0:00:09[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━[0m [32m84.1/150.8 MB[0m [31m8.3 MB/s[0m eta [36m0:00:09[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━[0m [32m85.7/150.8 MB[0m [31m8.4 MB/s[0m eta [36m0:00:08[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━[0m [32m87.8/150.8 MB[0m [31m8.4 MB/s[0m eta [36m0:00:08[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━[0m [32m90.2/150.8 MB[0m [31m8.4 MB/s[0m eta [36m0:00:08[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━[0m [32m91.8/150.8 MB[0m [31m8.4 MB/s[0m eta [36m0:00:08[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━[0m [32m93.8/150.8 MB[0m [31m8.4 MB/s[0m eta [36m0:00:07[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━[0m [32m95.4/150.8 MB[0m [31m8.5 MB/s[0m eta [36m0:00:07[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━[0m [32m96.2/150.8 MB[0m [31m8.4 MB/s[0m eta [36m0:00:07[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━[0m [32m99.1/150.8 MB[0m [31m8.4 MB/s[0m eta [36m0:00:07[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━[0m [32m100.7/150.8 MB[0m [31m8.4 MB/s[0m eta [36m0:00:06[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━[0m [32m103.5/150.8 MB[0m [31m8.5 MB/s[0m eta [36m0:00:06[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━[0m [32m105.1/150.8 MB[0m [31m8.5 MB/s[0m eta [36m0:00:06[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━[0m [32m107.5/150.8 MB[0m [31m8.5 MB/s[0m eta [36m0:00:06[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━[0m [32m108.0/150.8 MB[0m [31m8.5 MB/s[0m eta [36m0:00:06[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━[0m [32m108.0/150.8 MB[0m [31m8.5 MB/s[0m eta [36m0:00:06[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━[0m [32m112.2/150.8 MB[0m [31m8.5 MB/s[0m eta [36m0:00:05[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━[0m [32m112.7/150.8 MB[0m [31m8.5 MB/s[0m eta [36m0:00:05[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━[0m [32m113.2/150.8 MB[0m [31m8.3 MB/s[0m eta [36m0:00:05[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━[0m [32m117.7/150.8 MB[0m [31m8.5 MB/s[0m eta [36m0:00:04[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━[0m [32m119.0/150.8 MB[0m [31m8.5 MB/s[0m eta [36m0:00:04[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━[0m [32m121.4/150.8 MB[0m [31m8.5 MB/s[0m eta [36m0:00:04[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━[0m [32m123.5/150.8 MB[0m [31m8.5 MB/s[0m eta [36m0:00:04[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m125.0/150.8 MB[0m [31m8.6 MB/s[0m eta [36m0:00:04[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━[0m [32m126.9/150.8 MB[0m [31m8.6 MB/s[0m eta [36m0:00:03[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━[0m [32m128.2/150.8 MB[0m [31m8.5 MB/s[0m eta [36m0:00:03[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━[0m [32m130.8/150.8 MB[0m [31m8.6 MB/s[0m eta [36m0:00:03[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━[0m [32m132.9/150.8 MB[0m [31m8.6 MB/s[0m eta [36m0:00:03[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━[0m [32m134.2/150.8 MB[0m [31m8.6 MB/s[0m eta [36m0:00:02[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━[0m [32m136.8/150.8 MB[0m [31m8.6 MB/s[0m eta [36m0:00:02[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━[0m [32m137.9/150.8 MB[0m [31m8.6 MB/s[0m eta [36m0:00:02[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━[0m [32m140.5/150.8 MB[0m [31m8.6 MB/s[0m eta [36m0:00:02[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━[0m [32m142.6/150.8 MB[0m [31m8.6 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━[0m [32m144.2/150.8 MB[0m [31m8.6 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m146.3/150.8 MB[0m [31m8.6 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m [32m147.6/150.8 MB[0m [31m8.7 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m149.9/150.8 MB[0m [31m8.7 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m150.7/150.8 MB[0m [31m8.7 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m150.7/150.8 MB[0m [31m8.7 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m150.7/150.8 MB[0m [31m8.7 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m150.7/150.8 MB[0m [31m8.7 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m150.7/150.8 MB[0m [31m8.7 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m150.7/150.8 MB[0m [31m8.7 MB/s[0m eta [36m0:00:01[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m150.8/150.8 MB[0m [31m8.1 MB/s[0m eta [36m0:00:00[0m
+[?25hRequirement already satisfied: numpy in /Users/qingyuanzii/opt/anaconda3/envs/llm/lib/python3.10/site-packages (from sentence_transformers) (1.26.4)
+Requirement already satisfied: scikit-learn in /Users/qingyuanzii/opt/anaconda3/envs/llm/lib/python3.10/site-packages (from sentence_transformers) (1.5.1)
+Requirement already satisfied: scipy in /Users/qingyuanzii/opt/anaconda3/envs/llm/lib/python3.10/site-packages (from sentence_transformers) (1.14.0)
+Requirement already satisfied: huggingface-hub>=0.15.1 in /Users/qingyuanzii/opt/anaconda3/envs/llm/lib/python3.10/site-packages (from sentence_transformers) (0.23.4)
+Requirement already satisfied: Pillow in /Users/qingyuanzii/opt/anaconda3/envs/llm/lib/python3.10/site-packages (from sentence_transformers) (10.4.0)
+Requirement already satisfied: filelock in /Users/qingyuanzii/opt/anaconda3/envs/llm/lib/python3.10/site-packages (from huggingface-hub>=0.15.1->sentence_transformers) (3.15.4)
+Requirement already satisfied: fsspec>=2023.5.0 in /Users/qingyuanzii/opt/anaconda3/envs/llm/lib/python3.10/site-packages (from huggingface-hub>=0.15.1->sentence_transformers) (2024.5.0)
+Requirement already satisfied: packaging>=20.9 in /Users/qingyuanzii/opt/anaconda3/envs/llm/lib/python3.10/site-packages (from huggingface-hub>=0.15.1->sentence_transformers) (24.1)
+Requirement already satisfied: pyyaml>=5.1 in /Users/qingyuanzii/opt/anaconda3/envs/llm/lib/python3.10/site-packages (from huggingface-hub>=0.15.1->sentence_transformers) (6.0.1)
+Requirement already satisfied: requests in /Users/qingyuanzii/opt/anaconda3/envs/llm/lib/python3.10/site-packages (from huggingface-hub>=0.15.1->sentence_transformers) (2.32.3)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /Users/qingyuanzii/opt/anaconda3/envs/llm/lib/python3.10/site-packages (from huggingface-hub>=0.15.1->sentence_transformers) (4.12.2)
+Requirement already satisfied: sympy in /Users/qingyuanzii/opt/anaconda3/envs/llm/lib/python3.10/site-packages (from torch>=1.11.0->sentence_transformers) (1.13.2)
+Collecting networkx (from torch>=1.11.0->sentence_transformers)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/38/e9/5f72929373e1a0e8d142a130f3f97e6ff920070f87f91c4e13e40e0fba5a/networkx-3.3-py3-none-any.whl (1.7 MB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/1.7 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━[0m [32m1.6/1.7 MB[0m [31m10.6 MB/s[0m eta [36m0:00:01[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.7/1.7 MB[0m [31m7.7 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting jinja2 (from torch>=1.11.0->sentence_transformers)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/31/80/3a54838c3fb461f6fec263ebf3a3a41771bd05190238de3486aae8540c36/jinja2-3.1.4-py3-none-any.whl (133 kB)
+Requirement already satisfied: regex!=2019.12.17 in /Users/qingyuanzii/opt/anaconda3/envs/llm/lib/python3.10/site-packages (from transformers<5.0.0,>=4.34.0->sentence_transformers) (2024.5.15)
+Collecting safetensors>=0.4.1 (from transformers<5.0.0,>=4.34.0->sentence_transformers)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/cb/fa/bd12d51c70986156031c25eae2d092ad8ef8b5cadb4e684a78b620b28320/safetensors-0.4.4-cp310-cp310-macosx_10_12_x86_64.whl (392 kB)
+Collecting tokenizers<0.20,>=0.19 (from transformers<5.0.0,>=4.34.0->sentence_transformers)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/c1/60/91cac8d496b304ec5a22f07606893cad35ea8e1a8406dc8909e365f97a80/tokenizers-0.19.1-cp310-cp310-macosx_10_12_x86_64.whl (2.5 MB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/2.5 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━[0m [32m1.3/2.5 MB[0m [31m10.0 MB/s[0m eta [36m0:00:01[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.5/2.5 MB[0m [31m6.6 MB/s[0m eta [36m0:00:00[0m
+[?25hRequirement already satisfied: joblib>=1.2.0 in /Users/qingyuanzii/opt/anaconda3/envs/llm/lib/python3.10/site-packages (from scikit-learn->sentence_transformers) (1.4.2)
+Requirement already satisfied: threadpoolctl>=3.1.0 in /Users/qingyuanzii/opt/anaconda3/envs/llm/lib/python3.10/site-packages (from scikit-learn->sentence_transformers) (3.5.0)
+Collecting MarkupSafe>=2.0 (from jinja2->torch>=1.11.0->sentence_transformers)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/6a/4a/a4d49415e600bacae038c67f9fecc1d5433b9d3c71a4de6f33537b89654c/MarkupSafe-2.1.5-cp310-cp310-macosx_10_9_x86_64.whl (14 kB)
+Requirement already satisfied: charset-normalizer<4,>=2 in /Users/qingyuanzii/opt/anaconda3/envs/llm/lib/python3.10/site-packages (from requests->huggingface-hub>=0.15.1->sentence_transformers) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in /Users/qingyuanzii/opt/anaconda3/envs/llm/lib/python3.10/site-packages (from requests->huggingface-hub>=0.15.1->sentence_transformers) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /Users/qingyuanzii/opt/anaconda3/envs/llm/lib/python3.10/site-packages (from requests->huggingface-hub>=0.15.1->sentence_transformers) (2.2.2)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/qingyuanzii/opt/anaconda3/envs/llm/lib/python3.10/site-packages (from requests->huggingface-hub>=0.15.1->sentence_transformers) (2024.6.2)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in /Users/qingyuanzii/opt/anaconda3/envs/llm/lib/python3.10/site-packages (from sympy->torch>=1.11.0->sentence_transformers) (1.3.0)
+Installing collected packages: safetensors, networkx, MarkupSafe, jinja2, torch, tokenizers, transformers, sentence_transformers
+  Attempting uninstall: tokenizers
+    Found existing installation: tokenizers 0.20.0
+    Uninstalling tokenizers-0.20.0:
+      Successfully uninstalled tokenizers-0.20.0
+Successfully installed MarkupSafe-2.1.5 jinja2-3.1.4 networkx-3.3 safetensors-0.4.4 sentence_transformers-3.0.1 tokenizers-0.19.1 torch-2.2.2 transformers-4.44.1
+[1m[3m%[23m[1m[0m                                                                                                                                                                            [0m[23m[24m[J(llm) qingyuanzii@bogon together_ai % [K[?2004hpip install sentence_transformers -i https://pypi.tuna.tsinghua.edu.cn/simple[77Dpython token_rag_stackoverflow.py[2C-loc local --with_rag True --sample_source library_source_code[?2004l
+With_RAG:True
+predicting 1 
+collection_name: ray
+/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:   0%|                                                               | 0.00/79.3M [00:00<?, ?iB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:   0%|                                                    | 1.00k/79.3M [00:00<5:53:49, 3.92kiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:   0%|                                                      | 16.0k/79.3M [00:00<27:22, 50.6kiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:   0%|                                                      | 33.0k/79.3M [00:00<17:03, 81.3kiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:   0%|                                                       | 67.0k/79.3M [00:00<12:20, 112kiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:   0%|                                                        | 135k/79.3M [00:00<05:51, 237kiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:   0%|                                                        | 169k/79.3M [00:01<05:53, 235kiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:   0%|▏                                                       | 339k/79.3M [00:01<02:51, 484kiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:   1%|▎                                                       | 424k/79.3M [00:01<02:28, 557kiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:   1%|▌                                                       | 747k/79.3M [00:01<01:27, 942kiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:   2%|▉                                                     | 1.34M/79.3M [00:01<00:39, 2.07MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:   2%|█                                                     | 1.59M/79.3M [00:01<00:43, 1.89MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:   3%|█▋                                                    | 2.54M/79.3M [00:01<00:22, 3.65MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:   4%|██                                                    | 2.97M/79.3M [00:02<00:23, 3.43MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:   5%|██▋                                                   | 3.94M/79.3M [00:02<00:15, 4.94MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:   6%|███                                                   | 4.49M/79.3M [00:02<00:16, 4.90MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:   7%|███▊                                                  | 5.66M/79.3M [00:02<00:11, 6.73MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:   8%|████▍                                                 | 6.58M/79.3M [00:02<00:10, 7.47MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:   9%|█████                                                 | 7.47M/79.3M [00:02<00:09, 7.96MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  11%|█████▋                                                | 8.41M/79.3M [00:02<00:08, 8.47MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  12%|██████▎                                               | 9.26M/79.3M [00:02<00:09, 7.60MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  13%|██████▊                                               | 10.0M/79.3M [00:02<00:09, 7.63MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  14%|███████▍                                              | 10.9M/79.3M [00:03<00:08, 8.05MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  15%|████████                                              | 11.8M/79.3M [00:03<00:08, 8.50MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  16%|████████▋                                             | 12.7M/79.3M [00:03<00:09, 7.12MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  18%|█████████▋                                            | 14.2M/79.3M [00:03<00:07, 9.11MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  19%|██████████▍                                           | 15.3M/79.3M [00:03<00:06, 9.79MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  21%|███████████                                           | 16.3M/79.3M [00:03<00:06, 9.70MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  22%|███████████▋                                          | 17.2M/79.3M [00:03<00:06, 9.52MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  23%|████████████▎                                         | 18.2M/79.3M [00:03<00:07, 8.37MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  25%|█████████████▎                                        | 19.5M/79.3M [00:04<00:06, 9.60MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  26%|█████████████▉                                        | 20.5M/79.3M [00:04<00:06, 9.99MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  27%|██████████████▋                                       | 21.5M/79.3M [00:04<00:06, 9.86MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  28%|███████████████▎                                      | 22.5M/79.3M [00:04<00:07, 8.28MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  30%|████████████████▏                                     | 23.8M/79.3M [00:04<00:06, 9.60MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  31%|████████████████▊                                     | 24.8M/79.3M [00:04<00:05, 9.67MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  32%|█████████████████▌                                    | 25.8M/79.3M [00:04<00:05, 9.85MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  34%|██████████████████▏                                   | 26.7M/79.3M [00:04<00:06, 7.90MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  35%|██████████████████▊                                   | 27.6M/79.3M [00:04<00:06, 8.30MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  37%|███████████████████▉                                  | 29.3M/79.3M [00:05<00:05, 10.4MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  38%|████████████████████▋                                 | 30.3M/79.3M [00:05<00:04, 10.5MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  40%|█████████████████████▎                                | 31.4M/79.3M [00:05<00:04, 10.1MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  41%|██████████████████████                                | 32.4M/79.3M [00:05<00:05, 8.78MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  42%|██████████████████████▉                               | 33.7M/79.3M [00:05<00:04, 10.0MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  44%|███████████████████████▋                              | 34.7M/79.3M [00:05<00:04, 9.53MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  45%|████████████████████████▎                             | 35.8M/79.3M [00:05<00:04, 9.91MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  46%|█████████████████████████                             | 36.7M/79.3M [00:05<00:05, 8.50MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  48%|█████████████████████████▉                            | 38.1M/79.3M [00:06<00:04, 9.89MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  49%|██████████████████████████▌                           | 39.1M/79.3M [00:06<00:04, 9.87MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  51%|███████████████████████████▎                          | 40.1M/79.3M [00:06<00:04, 9.90MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  52%|███████████████████████████▉                          | 41.1M/79.3M [00:06<00:04, 8.15MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  53%|████████████████████████████▌                         | 41.9M/79.3M [00:06<00:04, 8.30MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  55%|█████████████████████████████▌                        | 43.4M/79.3M [00:06<00:03, 10.2MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  56%|██████████████████████████████▎                       | 44.4M/79.3M [00:06<00:03, 10.4MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  57%|██████████████████████████████▉                       | 45.5M/79.3M [00:06<00:03, 10.3MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  59%|███████████████████████████████▋                      | 46.5M/79.3M [00:07<00:04, 8.58MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  60%|████████████████████████████████▋                     | 47.9M/79.3M [00:07<00:03, 10.1MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  62%|█████████████████████████████████▎                    | 49.0M/79.3M [00:07<00:03, 10.2MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  63%|██████████████████████████████████                    | 50.0M/79.3M [00:07<00:03, 9.95MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  64%|██████████████████████████████████▋                   | 51.0M/79.3M [00:07<00:03, 8.43MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  65%|███████████████████████████████████▎                  | 51.9M/79.3M [00:07<00:03, 8.72MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  67%|████████████████████████████████████▏                 | 53.2M/79.3M [00:07<00:02, 9.98MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  68%|████████████████████████████████████▉                 | 54.3M/79.3M [00:07<00:02, 10.3MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  70%|█████████████████████████████████████▋                | 55.3M/79.3M [00:08<00:03, 8.19MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  71%|██████████████████████████████████████▎               | 56.2M/79.3M [00:08<00:02, 8.64MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  72%|██████████████████████████████████████▉               | 57.1M/79.3M [00:08<00:03, 7.72MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  73%|███████████████████████████████████████▍              | 57.9M/79.3M [00:08<00:03, 7.05MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  74%|███████████████████████████████████████▉              | 58.7M/79.3M [00:08<00:03, 6.58MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  75%|████████████████████████████████████████▊             | 59.9M/79.3M [00:09<00:05, 3.83MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  77%|█████████████████████████████████████████▍            | 60.8M/79.3M [00:09<00:04, 4.66MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  78%|██████████████████████████████████████████            | 61.7M/79.3M [00:09<00:03, 5.48MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  79%|██████████████████████████████████████████▋           | 62.6M/79.3M [00:09<00:02, 6.27MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  80%|███████████████████████████████████████████▏          | 63.4M/79.3M [00:09<00:02, 5.90MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  81%|███████████████████████████████████████████▉          | 64.6M/79.3M [00:09<00:02, 7.17MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  83%|████████████████████████████████████████████▊         | 65.9M/79.3M [00:09<00:01, 8.76MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  84%|█████████████████████████████████████████████▌        | 66.9M/79.3M [00:09<00:01, 9.01MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  86%|██████████████████████████████████████████████▏       | 67.9M/79.3M [00:10<00:01, 9.20MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  87%|██████████████████████████████████████████████▊       | 68.8M/79.3M [00:10<00:01, 8.07MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  88%|███████████████████████████████████████████████▊      | 70.2M/79.3M [00:10<00:00, 9.66MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  90%|████████████████████████████████████████████████▍     | 71.2M/79.3M [00:10<00:00, 9.74MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  91%|█████████████████████████████████████████████████▏    | 72.2M/79.3M [00:10<00:00, 9.73MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  92%|█████████████████████████████████████████████████▊    | 73.2M/79.3M [00:10<00:00, 8.06MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  94%|██████████████████████████████████████████████████▌   | 74.3M/79.3M [00:10<00:00, 8.90MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  95%|███████████████████████████████████████████████████▏  | 75.2M/79.3M [00:10<00:00, 9.07MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  97%|████████████████████████████████████████████████████▏ | 76.6M/79.3M [00:11<00:00, 10.0MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  98%|████████████████████████████████████████████████████▊ | 77.6M/79.3M [00:11<00:00, 8.32MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz:  99%|█████████████████████████████████████████████████████▌| 78.7M/79.3M [00:11<00:00, 9.22MiB/s]/Users/qingyuanzii/.cache/chroma/onnx_models/all-MiniLM-L6-v2/onnx.tar.gz: 100%|██████████████████████████████████████████████████████| 79.3M/79.3M [00:11<00:00, 7.28MiB/s]
+[1;31m2024-08-21 22:43:22.053573 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 2 
+collection_name: jax
+[1;31m2024-08-21 22:43:22.740777 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 3 
+collection_name: pytorch-lightning
+[1;31m2024-08-21 22:43:23.487951 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 4 
+collection_name: pandas
+[1;31m2024-08-21 22:43:45.827168 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 5 
+collection_name: ray
+[1;31m2024-08-21 22:43:46.323089 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 6 
+source_code length is 0
+predicting 7 
+source_code length is 0
+predicting 8 
+source_code length is 0
+predicting 9 
+collection_name: pandas
+[1;31m2024-08-21 22:43:48.606361 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 10 
+collection_name: keras
+[1;31m2024-08-21 22:43:52.514913 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 11 
+collection_name: pandas
+[1;31m2024-08-21 22:43:54.612469 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 12 
+source_code length is 0
+predicting 13 
+collection_name: wandb
+[1;31m2024-08-21 22:43:55.141102 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 14 
+collection_name: streamlit
+[1;31m2024-08-21 22:43:55.540851 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 15 
+collection_name: streamlit
+[1;31m2024-08-21 22:43:55.795579 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 16 
+source_code length is 0
+predicting 17 
+collection_name: librosa
+[1;31m2024-08-21 22:43:56.133819 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 18 
+collection_name: tensorflow
+[1;31m2024-08-21 22:44:00.937117 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 19 
+source_code length is 0
+predicting 20 
+collection_name: pytorch-lightning
+[1;31m2024-08-21 22:44:01.371009 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 21 
+collection_name: tensorflow
+[1;31m2024-08-21 22:44:02.022513 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 22 
+source_code length is 0
+predicting 23 
+source_code length is 0
+predicting 24 
+source_code length is 0
+predicting 25 
+source_code length is 0
+predicting 26 
+collection_name: scikit-learn
+[1;31m2024-08-21 22:44:03.931830 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 27 
+collection_name: h5py
+[1;31m2024-08-21 22:44:04.312298 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 28 
+collection_name: tensorflow
+[1;31m2024-08-21 22:44:04.864515 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 29 
+source_code length is 0
+predicting 30 
+collection_name: tensorflow
+[1;31m2024-08-21 22:44:05.460954 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 31 
+collection_name: tensorflow
+[1;31m2024-08-21 22:44:06.018812 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 32 
+collection_name: streamlit
+[1;31m2024-08-21 22:44:06.306013 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 33 
+collection_name: packaging
+[1;31m2024-08-21 22:44:06.676591 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 34 
+collection_name: ray
+[1;31m2024-08-21 22:44:07.043269 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 35 
+collection_name: keras
+[1;31m2024-08-21 22:44:10.535331 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 36 
+collection_name: jax
+[1;31m2024-08-21 22:44:10.942443 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 37 
+source_code length is 0
+predicting 38 
+collection_name: keras
+[1;31m2024-08-21 22:44:11.432215 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 39 
+source_code length is 0
+predicting 40 
+collection_name: huggingface-hub
+[1;31m2024-08-21 22:44:11.592583 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 41 
+collection_name: pandas
+[1;31m2024-08-21 22:44:16.155427 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 42 
+collection_name: keras
+[1;31m2024-08-21 22:44:16.695260 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 43 
+source_code length is 0
+predicting 44 
+collection_name: streamlit
+[1;31m2024-08-21 22:44:16.938999 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 45 
+collection_name: keras
+[1;31m2024-08-21 22:44:17.373670 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 46 
+collection_name: streamlit
+[1;31m2024-08-21 22:44:17.608259 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 47 
+collection_name: pytorch-lightning
+[1;31m2024-08-21 22:44:17.939194 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 48 
+collection_name: huggingface-hub
+[1;31m2024-08-21 22:44:18.055875 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 49 
+collection_name: huggingface-hub
+[1;31m2024-08-21 22:44:18.127408 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 50 
+collection_name: keras
+[1;31m2024-08-21 22:44:18.725309 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 51 
+collection_name: streamlit
+[1;31m2024-08-21 22:44:18.967987 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 52 
+collection_name: keras
+[1;31m2024-08-21 22:44:19.439237 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 53 
+collection_name: pytest
+[1;31m2024-08-21 22:44:20.493047 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 54 
+collection_name: pandas
+[1;31m2024-08-21 22:44:22.272352 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 55 
+collection_name: huggingface-hub
+[1;31m2024-08-21 22:44:22.487446 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 56 
+collection_name: flax
+[1;31m2024-08-21 22:44:22.616396 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 57 
+source_code length is 0
+predicting 58 
+collection_name: huggingface-hub
+[1;31m2024-08-21 22:44:22.683847 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 59 
+collection_name: ray
+[1;31m2024-08-21 22:44:23.103710 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 60 
+collection_name: huggingface-hub
+[1;31m2024-08-21 22:44:23.213988 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 61 
+collection_name: streamlit
+[1;31m2024-08-21 22:44:23.582994 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 62 
+collection_name: tensorflow
+[1;31m2024-08-21 22:44:24.101486 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 63 
+collection_name: torch
+[1;31m2024-08-21 22:44:24.508624 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 64 
+collection_name: keras
+[1;31m2024-08-21 22:44:24.967788 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 65 
+collection_name: keras
+[1;31m2024-08-21 22:44:25.417018 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 66 
+collection_name: psutil
+[1;31m2024-08-21 22:44:25.692129 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 67 
+collection_name: tensorboardX
+[1;31m2024-08-21 22:44:25.810232 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 68 
+collection_name: keras
+[1;31m2024-08-21 22:44:26.421454 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 69 
+collection_name: jax
+[1;31m2024-08-21 22:44:26.701831 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 70 
+source_code length is 0
+predicting 71 
+collection_name: keras
+[1;31m2024-08-21 22:44:27.193399 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 72 
+collection_name: tensorflow
+[1;31m2024-08-21 22:44:27.773119 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 73 
+collection_name: pytorch-lightning
+[1;31m2024-08-21 22:44:28.080144 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 74 
+collection_name: keras
+[1;31m2024-08-21 22:44:28.604446 [E:onnxruntime:, sequential_executor.cc:516 ExecuteKernel] Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.[m
+Non library source contains
+[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running CoreML_4000438621724772286_1 node. Name:'CoreMLExecutionProvider_CoreML_4000438621724772286_1_1' Status Message: Error executing model: Error computing NN outputs.
+source_code length is 0
+predicting 75 
+source_code length is 0
+predicting 76 
+collection_name: keras
+^CTraceback (most recent call last):
+  File "/Users/qingyuanzii/Desktop/Versi-Code-Gen/VerisiCode-RAG/Generation/together_ai/token_rag_stackoverflow.py", line 264, in <module>
+    source_code = reterive_msg(corpus_dir, data['dependency'], description)
+  File "/Users/qingyuanzii/Desktop/Versi-Code-Gen/VerisiCode-RAG/Generation/together_ai/token_rag_stackoverflow.py", line 106, in reterive_msg
+    _source_code = create_collection(corpus_dir,dependency,text,1)
+  File "/Users/qingyuanzii/Desktop/Versi-Code-Gen/VerisiCode-RAG/Generation/together_ai/token_rag_stackoverflow.py", line 73, in create_collection
+    item = json.loads(line)
+  File "/Users/qingyuanzii/opt/anaconda3/envs/llm/lib/python3.10/json/__init__.py", line 299, in loads
+    def loads(s, *, cls=None, object_hook=None, parse_float=None,
+KeyboardInterrupt
+
+[1m[3m%[23m[1m[0m                                                                                                                                                                            [0m[23m[24m[J(llm) qingyuanzii@bogon together_ai % [K[?2004h                                                                               
+*** FINAL System shutdown message from root@MacBook-Pro-3.local ***          
+System going down IMMEDIATELY                                                  
+                                                                               
+                                                                               
