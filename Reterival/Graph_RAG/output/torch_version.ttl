@@ -1,0 +1,99 @@
+
+<DEPENDENCY.torch1.0.0> <CONTAINS> <API.createResolutionCallback> .
+
+<DEPENDENCY.torch1.0.1> <CONTAINS> <API.createResolutionCallback> .
+
+<DEPENDENCY.torch1.1.0> <CONTAINS> <API.createResolutionCallback> .
+
+<DEPENDENCY.torch1.10.0> <CONTAINS> <API.createResolutionCallbackFromFrame>,
+        <API.register_comm_hook>,
+        <API.to_sparse_csr> .
+
+<DEPENDENCY.torch1.10.1> <CONTAINS> <API.createResolutionCallbackFromFrame>,
+        <API.register_comm_hook>,
+        <API.to_sparse_csr> .
+
+<DEPENDENCY.torch1.10.2> <CONTAINS> <API.createResolutionCallbackFromFrame>,
+        <API.register_comm_hook>,
+        <API.to_sparse_csr> .
+
+<DEPENDENCY.torch1.11.0> <CONTAINS> <API.createResolutionCallbackFromFrame>,
+        <API.register_comm_hook>,
+        <API.to_sparse_csr> .
+
+<DEPENDENCY.torch1.12.0> <CONTAINS> <API.createResolutionCallbackFromFrame>,
+        <API.register_comm_hook> .
+
+<DEPENDENCY.torch1.12.1> <CONTAINS> <API.createResolutionCallbackFromFrame>,
+        <API.register_comm_hook> .
+
+<DEPENDENCY.torch1.13.0> <CONTAINS> <API.createResolutionCallbackFromFrame>,
+        <API.register_comm_hook> .
+
+<DEPENDENCY.torch1.13.1> <CONTAINS> <API.createResolutionCallbackFromFrame>,
+        <API.register_comm_hook> .
+
+<DEPENDENCY.torch1.2.0> <CONTAINS> <API.createResolutionCallback> .
+
+<DEPENDENCY.torch1.3.0> <CONTAINS> <API.createResolutionCallback> .
+
+<DEPENDENCY.torch1.3.1> <CONTAINS> <API.createResolutionCallback> .
+
+<DEPENDENCY.torch1.4.0> <CONTAINS> <API.createResolutionCallbackFromFrame> .
+
+<DEPENDENCY.torch1.5.0> <CONTAINS> <API.createResolutionCallbackFromFrame> .
+
+<DEPENDENCY.torch1.5.1> <CONTAINS> <API.createResolutionCallbackFromFrame> .
+
+<DEPENDENCY.torch1.6.0> <CONTAINS> <API.createResolutionCallbackFromFrame> .
+
+<DEPENDENCY.torch1.7.0> <CONTAINS> <API._register_comm_hook>,
+        <API.createResolutionCallbackFromFrame> .
+
+<DEPENDENCY.torch1.7.1> <CONTAINS> <API._register_comm_hook>,
+        <API.createResolutionCallbackFromFrame> .
+
+<DEPENDENCY.torch1.8.0> <CONTAINS> <API.createResolutionCallbackFromFrame>,
+        <API.register_comm_hook> .
+
+<DEPENDENCY.torch1.8.1> <CONTAINS> <API.createResolutionCallbackFromFrame>,
+        <API.register_comm_hook> .
+
+<DEPENDENCY.torch1.9.0> <CONTAINS> <API._to_sparse_csr>,
+        <API.createResolutionCallbackFromFrame>,
+        <API.register_comm_hook> .
+
+<DEPENDENCY.torch1.9.1> <CONTAINS> <API._to_sparse_csr>,
+        <API.createResolutionCallbackFromFrame>,
+        <API.register_comm_hook> .
+
+<DEPENDENCY.torch2.0.0> <CONTAINS> <API.createResolutionCallbackFromFrame>,
+        <API.register_comm_hook> .
+
+<DEPENDENCY.torch2.0.1> <CONTAINS> <API.createResolutionCallbackFromFrame>,
+        <API.register_comm_hook> .
+
+<DEPENDENCY.torch2.1.0> <CONTAINS> <API.createResolutionCallbackFromFrame>,
+        <API.create_unbacked_symint>,
+        <API.register_comm_hook> .
+
+<DEPENDENCY.torch2.1.1> <CONTAINS> <API.createResolutionCallbackFromFrame>,
+        <API.create_unbacked_symint>,
+        <API.register_comm_hook> .
+
+<DEPENDENCY.torch2.1.2> <CONTAINS> <API.createResolutionCallbackFromFrame>,
+        <API.create_unbacked_symint>,
+        <API.register_comm_hook> .
+
+<DEPENDENCY.torch2.2.0> <CONTAINS> <API.createResolutionCallbackFromFrame>,
+        <API.new_dynamic_size>,
+        <API.register_comm_hook> .
+
+<API._register_comm_hook> <ALIGNS> <API.register_comm_hook> .
+
+<API._to_sparse_csr> <ALIGNS> <API.to_sparse_csr> .
+
+<API.create_unbacked_symint> <ALIGNS> <API.new_dynamic_size> .
+
+<API.createResolutionCallback> <ALIGNS> <API.createResolutionCallbackFromFrame> .
+

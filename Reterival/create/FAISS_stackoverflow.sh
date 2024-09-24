@@ -1,0 +1,3 @@
+python FAISS.py --corpus ./datasets/stackoverflow/corpus.jsonl --queries /root/autodl-tmp/VersiCode-RAG/Reterival/datasets/stackoverflow/python/token/queries.jsonl --output_dir ./output/stackoverflow/ --task token
+python FAISS.py --corpus ./datasets/stackoverflow/corpus.jsonl --queries /root/autodl-tmp/VersiCode-RAG/Reterival/datasets/stackoverflow/python/line/queries.jsonl --output_dir ./output/stackoverflow/ --task line
+python FAISS.py --corpus ./datasets/stackoverflow/corpus.jsonl --queries /root/autodl-tmp/VersiCode-RAG/Reterival/datasets/stackoverflow/python/block/queries.jsonl --output_dir ./output/stackoverflow/ --task block
